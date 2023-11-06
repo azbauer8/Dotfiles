@@ -1,0 +1,129 @@
+{
+  "workbench.startupEditor": "none",
+  "workbench.sideBar.location": "right",
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.autohide": true,
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "editor.formatOnSave": true,
+  "window.titleBarStyle": "custom",
+  "workbench.iconTheme": "simple-icons",
+  "workbench.productIconTheme": "fluent-icons",
+  "editor.inlayHints.enabled": "off",
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBackground": "#1073cf2d",
+    "editor.lineHighlightBorder": "#9fced11f"
+  },
+  "terminal.integrated.gpuAcceleration": "off",
+  "editor.wordWrap": "bounded",
+  "diffEditor.wordWrap": "off",
+  "editor.guides.indentation": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.highlightActiveBracketPair": true,
+  "editor.fontFamily": "'Rec Mono Semicasual', 'JetBrainsMono Nerd Font Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.renderLineHighlight": "gutter",
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "git.openRepositoryInParentFolders": "always",
+  "window.restoreWindows": "none",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "editor.cursorBlinking": "phase",
+  "indentRainbow.indicatorStyle": "light",
+  "indentRainbow.lightIndicatorStyleLineWidth": 6,
+  "workbench.editorAssociations": {
+    "*.svg": "default"
+  },
+
+  "security.workspace.trust.untrustedFiles": "open",
+  "window.menuBarVisibility": "compact",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.minimap.maxColumn": 80,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "settingsSync.ignoredExtensions": ["ms-vscode-remote.remote-wsl"],
+  "security.allowedUNCHosts": ["wsl.localhost"],
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "workbench.editor.empty.hint": "hidden",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorStyleInactive": "line",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorWidth": 2,
+  "typescript.suggest.paths": false,
+  "javascript.suggest.paths": false,
+  "path-intellisense.showHiddenFiles": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "terminal.integrated.env.windows": {},
+  "console-ninja.featureSet": "Community",
+  "terminal.integrated.env.osx": {},
+  "files.hotExit": "onExitAndWindowClose",
+  "workbench.tree.indent": 20,
+  "fluent-ui-vscode.compact": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "keyword",
+          "storage.modifier",
+          "storage.type.class.js",
+          "storage.type.js",
+          "entity.other.attribute-name"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": ["keyword.control.conditional", "keyword.operator"],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "workbench.colorTheme": "Kanagawa",
+  "indentRainbow.errorColor": "rgba(128,32,32,0)",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "colorize.languages": [
+    "js",
+    "css",
+    "sass",
+    "scss",
+    "less",
+    "postcss",
+    "sss",
+    "stylus",
+    "xml",
+    "svg"
+  ],
+  "colorize.exclude": [
+    "**/.git",
+    "**/.svn",
+    "**/.hg",
+    "**/CVS",
+    "**/.DS_Store",
+    "**/.git",
+    "**/node_modules",
+    "**/bower_components",
+    "**/tmp",
+    "**/dist",
+    "**/tests"
+  ],
+  "colorize.colorized_variables": ["LESS", "SASS", "CSS"],
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.tabSize": 2,
+  "editor.matchBrackets": "never",
+  "editor.selectionHighlight": false,
+  "editor.occurrencesHighlight": false,
+  "terminal.integrated.fontFamily": "'CaskaydiaCove Nerd Font', 'FiraCode Nerd Font Mono'",
+  "workbench.activityBar.location": "top"
+}

@@ -1,0 +1,6 @@
+starship prompt
+lazygit
+zoxide
+fzf
+eza
+PS Read Line
