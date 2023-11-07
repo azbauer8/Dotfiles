@@ -21,7 +21,7 @@ $mappings = @(
   },
   # Powershell
   @{
-    source = "$Env:USERPROFILE\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1"
+    source = "$Env:USERPROFILE\Documents\PowerShell\Microsoft.PowerShell_profile.ps1"
     dest = "$PWD\Powershell\Microsoft.PowerShell_profile.ps1"
   },
   # Terminal
@@ -42,11 +42,6 @@ $mappings = @(
   @{
     source = "$Env:LocalAppData\Packages\2203VeselinKaraganev.FancyWM_9x2ndwrcmyd2c\LocalCache\Roaming\FancyWM\settings.json"
     dest = "$PWD\FancyWM\settings.json"
-  },
-  # Typora
-  @{
-    source = "$Env:AppData\Typora\conf\conf.user.json"
-    dest = "$PWD\..\Global\Typora\conf.user.json"
   }
 )
 
