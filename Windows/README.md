@@ -5,4 +5,3 @@ Assumes you already have the following installed:
 - VS Code
 - FancyWM
 - Virtual Space
-- Flow Launcher
