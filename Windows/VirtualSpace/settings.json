@@ -1,0 +1,170 @@
+{
+  "Profiles": {
+    "Default": {
+      "UI": {
+        "CanvasBackColor": {
+          "R": 55,
+          "G": 55,
+          "B": 55
+        },
+        "VDWDefaultBackColor": {
+          "R": 55,
+          "G": 55,
+          "B": 55
+        },
+        "VDWCurrentBackColor": {
+          "R": 245,
+          "G": 245,
+          "B": 220
+        },
+        "VDWHighlightBackColor": {
+          "R": 255,
+          "G": 99,
+          "B": 71
+        },
+        "VDWDragTargetOpacity": 0.8,
+        "Language": "en",
+        "ShowVdName": true,
+        "ShowVdIndex": false,
+        "ShowVdIndexType": 1,
+        "VDWPadding": 0,
+        "VDWBorderSize": 1,
+        "VDWMargin": 8,
+        "CanvasOpacity": 100,
+        "ThumbMargin": {
+          "Top": 20,
+          "Right": 0,
+          "Bottom": 0,
+          "Left": 10
+        },
+        "ThumbDragSourceOpacity": 150,
+        "DesktopArrangement": 0,
+        "Theme": 0
+      },
+      "DaemonAutoStart": true,
+      "DaemonAutoStartDelay": 0,
+      "DesktopOrder": [
+        "efc4a130-0754-4979-b85f-7f1e88bb4493",
+        "fe8e37cc-40c5-4128-9520-0b31dda60142",
+        "e369ef4a-6efe-4ff5-8391-33f50546d690",
+        "463a31f9-7b6f-4c34-871c-f7ede9c23217"
+      ],
+      "Mouse": {
+        "LeftClickOnCanvas": 1,
+        "RightClickOnCanvas": 0,
+        "MiddleClickOnCanvas": 0,
+        "UseWheelSwitchDesktopWhenOnTaskbar": false,
+        "DragSizeFactor": 10,
+        "TaskbarVisibilityThreshold": 100
+      },
+      "IgnoreWindowOnRuleCheckTimeout": true,
+      "Navigation": {
+        "CirculationH": false,
+        "CirculationHType": 0,
+        "CirculationV": false
+      }
+    }
+  },
+  "CurrentProfileName": "Default",
+  "Version": "2.0",
+  "LogConfig": {
+    "ShowLogsInGui": false,
+    "LogLevel": "EVENT"
+  },
+  "KeyBindings": {
+    "hk_node_rise_mainview_for_current_vd": {
+      "GhkCode": "",
+      "MessageId": 1011
+    },
+    "hk_node_rise_mainview_for_active_app_in_current_vd": {
+      "GhkCode": "",
+      "MessageId": 1012
+    },
+    "hk_node_nav_left": {
+      "GhkCode": "",
+      "MessageId": 1201
+    },
+    "hk_node_nav_right": {
+      "GhkCode": "",
+      "MessageId": 1202
+    },
+    "hk_node_nav_up": {
+      "GhkCode": "",
+      "MessageId": 1203
+    },
+    "hk_node_nav_down": {
+      "GhkCode": "",
+      "MessageId": 1204
+    },
+    "hk_node_svd_back_last": {
+      "GhkCode": "",
+      "MessageId": 1014
+    },
+    "hk_node_svd_1": {
+      "GhkCode": "_\u002B_\u002BAlt\u002B_\u002BD1",
+      "MessageId": 1101
+    },
+    "hk_node_svd_2": {
+      "GhkCode": "_\u002B_\u002BAlt\u002B_\u002BD2",
+      "MessageId": 1102
+    },
+    "hk_node_svd_3": {
+      "GhkCode": "_\u002B_\u002BAlt\u002B_\u002BD3",
+      "MessageId": 1103
+    },
+    "hk_node_svd_4": {
+      "GhkCode": "_\u002B_\u002BAlt\u002B_\u002BD4",
+      "MessageId": 1104
+    },
+    "hk_node_mwf_1": {
+      "GhkCode": "_\u002B_\u002BAlt\u002BShift\u002BD1",
+      "MessageId": 1501
+    },
+    "hk_node_mwf_2": {
+      "GhkCode": "_\u002B_\u002BAlt\u002BShift\u002BD2",
+      "MessageId": 1502
+    },
+    "hk_node_mwf_3": {
+      "GhkCode": "_\u002B_\u002BAlt\u002BShift\u002BD3",
+      "MessageId": 1503
+    },
+    "hk_node_mwf_4": {
+      "GhkCode": "_\u002B_\u002BAlt\u002BShift\u002BD4",
+      "MessageId": 1504
+    },
+    "hk_node_open_app_controller": {
+      "GhkCode": "",
+      "MessageId": 1001
+    },
+    "hk_node_rise_mainview": {
+      "GhkCode": "",
+      "MessageId": 1000
+    },
+    "hk_node_rise_mainview_for_active_app": {
+      "GhkCode": "",
+      "MessageId": 1009
+    }
+  },
+  "MouseAction": {},
+  "MouseActions": {
+    "mouse_node_d_00\u002BLeft": 2,
+    "mouse_node_d_00\u002BMiddle": 3,
+    "mouse_node_d_00\u002BRight": 1,
+    "mouse_node_w_00\u002BLeft": 4,
+    "mouse_node_w_00\u002BMiddle": 5,
+    "mouse_node_w_00\u002BRight": 1
+  },
+  "Cluster": {
+    "HideMainViewIfItsShown": false,
+    "NotificationOnVdChanged": false,
+    "ShowVDIndexOnTrayIcon": true,
+    "StyleOfVDIndexOnTrayIcon": 1,
+    "HideOnStart": true,
+    "ForceFocusForegroundWindow": true,
+    "EnableDoubleBufferedForVDW": true,
+    "EnableWindowFilter": false,
+    "VdwWallpaperQuality": 50,
+    "ToggleWindowFilterDoublePressMaxInterval": 200,
+    "WindowFilterKeywordScanningInterval": 1000
+  }
+}

@@ -1,8 +1,7 @@
 Install-Module -Name PowerShellGet -Force
 Install-Module PSReadLine -AllowPrerelease -Force
 
-if (Get-Command "scoop" -errorAction SilentlyContinue){}
-else{
+if (!(Get-Command "scoop" -errorAction SilentlyContinue)){ 
   Invoke-RestMethod get.scoop.sh | Invoke-Expression
 }
 
@@ -38,10 +37,19 @@ $mappings = @(
     source = "$Env:AppData\Code\User\keybindings.json"
     dest = "$PWD\..\Global\VSCode\keybindings.json"
   },
+  @{
+    source = "$Env:USERPROFILE\.vscode\extensions\extensions.json"
+    dest = "$PWD\..\Global\VSCode\extensions.json"
+  },
   # FancyWM
   @{
     source = "$Env:LocalAppData\Packages\2203VeselinKaraganev.FancyWM_9x2ndwrcmyd2c\LocalCache\Roaming\FancyWM\settings.json"
     dest = "$PWD\FancyWM\settings.json"
+  },
+  # Virtual Space
+  @{
+    source = "$Env:USERPROFILE\Documents\VirtualSpace\settings.json"
+    dest = "$PWD\VirtualSpace\settings.json"
   }
 )
 
