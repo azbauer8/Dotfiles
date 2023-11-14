@@ -22,7 +22,7 @@
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
   "editor.guides.highlightActiveBracketPair": true,
-  "editor.fontFamily": "'Rec Mono Semicasual', 'JetBrainsMono Nerd Font Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "'Rec Mono Semicasual', 'JetBrainsMono Nerd Font Mono', monospace",
   "editor.fontLigatures": true,
   "editor.renderLineHighlight": "gutter",
   "git.enableSmartCommit": true,
@@ -125,5 +125,8 @@
   "editor.selectionHighlight": false,
   "editor.occurrencesHighlight": false,
   "terminal.integrated.fontFamily": "'CaskaydiaCove Nerd Font', 'FiraCode Nerd Font Mono'",
-  "workbench.activityBar.location": "top"
+  "workbench.activityBar.location": "top",
+  "editor.quickSuggestions": {
+    "strings": "on"
+  }
 }
