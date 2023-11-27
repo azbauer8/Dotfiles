@@ -44,12 +44,8 @@
   "editor.scrollbar.vertical": "hidden",
   "editor.minimap.maxColumn": 80,
   "terminal.integrated.defaultProfile.windows": "PowerShell",
-  "settingsSync.ignoredExtensions": [
-    "ms-vscode-remote.remote-wsl"
-  ],
-  "security.allowedUNCHosts": [
-    "wsl.localhost"
-  ],
+  "settingsSync.ignoredExtensions": ["ms-vscode-remote.remote-wsl"],
+  "security.allowedUNCHosts": ["wsl.localhost"],
   "files.associations": {
     "*.css": "tailwindcss"
   },
@@ -132,5 +128,6 @@
   "workbench.activityBar.location": "top",
   "editor.quickSuggestions": {
     "strings": "on"
-  }
+  },
+  "explorer.compactFolders": false
 }

@@ -11,7 +11,7 @@
   "PanelFontSize": 14,
   "ShowFocusDuringAction": true,
   "OverrideAccentColor": true,
-  "CustomAccentColor": "#222D5FFF",
+  "CustomAccentColor": "#CD9D6FFF",
   "Keybindings": {
     "ToggleManager": {
       "IsDirectMode": false,
@@ -399,7 +399,8 @@
     "FluentSearch"
   ],
   "ClassIgnoreList": [
-    "Fluent Search"
+    "Fluent Search",
+    "Notion - Command Search"
   ],
   "RemindToRateReview": true,
   "ShowContextHints": true,
