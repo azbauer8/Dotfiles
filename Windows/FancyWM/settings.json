@@ -163,10 +163,34 @@
         "Q"
       ]
     },
-    "SwitchToDesktop1": null,
-    "SwitchToDesktop2": null,
-    "SwitchToDesktop3": null,
-    "SwitchToDesktop4": null,
+    "SwitchToDesktop1": {
+      "IsDirectMode": false,
+      "Keys": [
+        "LeftAlt",
+        "D1"
+      ]
+    },
+    "SwitchToDesktop2": {
+      "IsDirectMode": false,
+      "Keys": [
+        "LeftAlt",
+        "D2"
+      ]
+    },
+    "SwitchToDesktop3": {
+      "IsDirectMode": false,
+      "Keys": [
+        "LeftAlt",
+        "D3"
+      ]
+    },
+    "SwitchToDesktop4": {
+      "IsDirectMode": false,
+      "Keys": [
+        "LeftAlt",
+        "D4"
+      ]
+    },
     "SwitchToDesktop5": null,
     "SwitchToDesktop6": {
       "IsDirectMode": false,
@@ -203,6 +227,7 @@
       "IsDirectMode": false,
       "Keys": [
         "LeftShift",
+        "LeftAlt",
         "D1"
       ]
     },
@@ -210,6 +235,7 @@
       "IsDirectMode": false,
       "Keys": [
         "LeftShift",
+        "LeftAlt",
         "D2"
       ]
     },
@@ -217,6 +243,7 @@
       "IsDirectMode": false,
       "Keys": [
         "LeftShift",
+        "LeftAlt",
         "D3"
       ]
     },
@@ -262,27 +289,9 @@
         "E"
       ]
     },
-    "SwitchToDisplay1": {
-      "IsDirectMode": false,
-      "Keys": [
-        "LeftAlt",
-        "D1"
-      ]
-    },
-    "SwitchToDisplay2": {
-      "IsDirectMode": false,
-      "Keys": [
-        "LeftAlt",
-        "D2"
-      ]
-    },
-    "SwitchToDisplay3": {
-      "IsDirectMode": false,
-      "Keys": [
-        "LeftAlt",
-        "D3"
-      ]
-    },
+    "SwitchToDisplay1": null,
+    "SwitchToDisplay2": null,
+    "SwitchToDisplay3": null,
     "SwitchToDisplay4": {
       "IsDirectMode": false,
       "Keys": [
@@ -342,14 +351,7 @@
         "D2"
       ]
     },
-    "MoveToDisplay3": {
-      "IsDirectMode": false,
-      "Keys": [
-        "LeftShift",
-        "LeftAlt",
-        "D3"
-      ]
-    },
+    "MoveToDisplay3": null,
     "MoveToDisplay4": {
       "IsDirectMode": false,
       "Keys": [

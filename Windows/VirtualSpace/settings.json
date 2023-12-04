@@ -104,6 +104,10 @@
       "GhkCode": "_\u002B_\u002BAlt\u002B_\u002BD1",
       "MessageId": 1101
     },
+    "hk_node_mw_1": {
+      "GhkCode": "",
+      "MessageId": 1301
+    },
     "hk_node_svd_2": {
       "GhkCode": "_\u002B_\u002BAlt\u002B_\u002BD2",
       "MessageId": 1102
@@ -112,25 +116,21 @@
       "GhkCode": "_\u002B_\u002BAlt\u002B_\u002BD3",
       "MessageId": 1103
     },
-    "hk_node_svd_4": {
-      "GhkCode": "_\u002B_\u002BAlt\u002B_\u002BD4",
-      "MessageId": 1104
-    },
-    "hk_node_mwf_1": {
-      "GhkCode": "_\u002B_\u002BAlt\u002BShift\u002BD1",
-      "MessageId": 1501
+    "hk_node_mwf_3": {
+      "GhkCode": "_\u002B_\u002BAlt\u002BShift\u002BD3",
+      "MessageId": 1503
     },
     "hk_node_mwf_2": {
       "GhkCode": "_\u002B_\u002BAlt\u002BShift\u002BD2",
       "MessageId": 1502
     },
-    "hk_node_mwf_3": {
-      "GhkCode": "_\u002B_\u002BAlt\u002BShift\u002BD3",
-      "MessageId": 1503
+    "hk_node_mwf_1": {
+      "GhkCode": "_\u002B_\u002BAlt\u002BShift\u002BD1",
+      "MessageId": 1501
     },
-    "hk_node_mwf_4": {
-      "GhkCode": "_\u002B_\u002BAlt\u002BShift\u002BD4",
-      "MessageId": 1504
+    "hk_node_svd_4": {
+      "GhkCode": "_\u002B_\u002BAlt\u002B_\u002BD4",
+      "MessageId": 1104
     },
     "hk_node_open_app_controller": {
       "GhkCode": "",
@@ -143,6 +143,10 @@
     "hk_node_rise_mainview_for_active_app": {
       "GhkCode": "",
       "MessageId": 1009
+    },
+    "hk_node_mwf_4": {
+      "GhkCode": "_\u002B_\u002BAlt\u002BShift\u002BD4",
+      "MessageId": 1504
     }
   },
   "MouseAction": {},
