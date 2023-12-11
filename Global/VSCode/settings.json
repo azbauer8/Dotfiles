@@ -79,6 +79,7 @@
       "variable.readonly.local": "#DCD7BA"
     }
   },
+  "editor.smoothScrolling": true,
   "editor.tabSize": 2,
   "editor.tokenColorCustomizations": {
     "textMateRules": [
@@ -753,7 +754,21 @@
   "htmltagwrap.tag": "div",
   "javascript.suggest.paths": false,
   "path-intellisense.showHiddenFiles": true,
-  "security.allowedUNCHosts": ["wsl.localhost"],
+  "relativePath.ignore": [
+    "**/.git/**",
+    "**/node_modules/**",
+    "**/.husky/**",
+    "**/.next/**",
+    "**/*.dll",
+    "**/*.swp",
+    "**/*.un~",
+    "**/obj/**",
+    "**/objd/**",
+    "**/src-tauri/target/**"
+  ],
+  "security.allowedUNCHosts": [
+    "wsl.localhost"
+  ],
   "security.workspace.trust.untrustedFiles": "open",
   "settingsSync.ignoredExtensions": ["ms-vscode-remote.remote-wsl"],
   "terminal.integrated.cursorBlinking": true,
@@ -763,7 +778,6 @@
   "terminal.integrated.defaultProfile.windows": "PowerShell",
   "terminal.integrated.env.osx": {},
   "terminal.integrated.env.windows": {},
-  "terminal.integrated.fontFamily": " 'JetBrainsMono Nerd Font Mono', monospace",
   "terminal.integrated.gpuAcceleration": "off",
   "terminal.integrated.profiles.windows": {
     "Command Prompt": {
@@ -813,8 +827,6 @@
     "terminal.ansiYellow": "#f3f99d",
     "terminal.foreground": "#eff0eb",
     "terminal.selectionBackground": "#97979b33",
-    // The background is optional
-    // "terminal.background": "#282a36",
     "terminalCursor.background": "#282a36",
     "terminalCursor.foreground": "#97979b"
   },
@@ -824,30 +836,12 @@
   },
   "workbench.iconTheme": "material-icon-theme",
   "workbench.layoutControl.enabled": false,
-  "workbench.productIconTheme": "material-product-icons",
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
   "workbench.tree.indent": 20,
-  "window.density.editorTabHeight": "compact",
-  "editor.smoothScrolling": true,
-  "vscode_custom_css.imports": [
-    "file:///c:/Users/zachb/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.1/dist/updateHandler.js"
-  ],
-  "animations.Enabled": true,
-  "animations.Install-Method": "Apc Customize UI++",
-  "apc.imports": [
-    "file:///c:/Users/zachb/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.1/dist/updateHandler.js"
-  ],
-  "relativePath.ignore": [
-    "**/.git/**",
-    "**/node_modules/**",
-    "**/.husky/**",
-    "**/.next/**",
-    "**/*.dll",
-    "**/*.swp",
-    "**/*.un~",
-    "**/obj/**",
-    "**/objd/**",
-    "**/src-tauri/target/**"
-  ]
+  "terminal.integrated.fontSize": 16,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "workbench.statusBar.visible": false
 }
