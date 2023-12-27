@@ -38,7 +38,7 @@
   "editor.cursorBlinking": "phase",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.fontFamily": "'JetBrainsMono Nerd Font Mono', monospace",
+  "editor.fontFamily": "Rec Mono Linear",
   "editor.fontLigatures": true,
   "editor.formatOnSave": true,
   "editor.guides.bracketPairs": "active",
@@ -766,9 +766,7 @@
     "**/objd/**",
     "**/src-tauri/target/**"
   ],
-  "security.allowedUNCHosts": [
-    "wsl.localhost"
-  ],
+  "security.allowedUNCHosts": ["wsl.localhost"],
   "security.workspace.trust.untrustedFiles": "open",
   "settingsSync.ignoredExtensions": ["ms-vscode-remote.remote-wsl"],
   "terminal.integrated.cursorBlinking": true,
@@ -841,7 +839,64 @@
   "workbench.tree.indent": 20,
   "terminal.integrated.fontSize": 16,
   "[typescriptreact]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.statusBar.visible": false
+  "html.format.wrapLineLength": 80,
+  "editor.mouseWheelScrollSensitivity": 2.5,
+  "workbench.statusBar.visible": false,
+  "commentAnchors.workspace.lazyLoad": false,
+  "commentAnchors.scrollPosition": "center",
+  "commentAnchors.tags.anchors": {
+    "ANCHOR": {
+      "iconColor": "default",
+      "highlightColor": "#A8C023",
+      "scope": "file"
+    },
+    "TODO": {
+      "iconColor": "blue",
+      "highlightColor": "#3ea8ff",
+      "scope": "workspace"
+    },
+    "FIXME": {
+      "iconColor": "red",
+      "highlightColor": "#F44336",
+      "scope": "workspace"
+    },
+    "STUB": {
+      "iconColor": "purple",
+      "highlightColor": "#BA68C8",
+      "scope": "file"
+    },
+    "NOTE": {
+      "iconColor": "orange",
+      "highlightColor": "#FFB300",
+      "scope": "file"
+    },
+    "REVIEW": {
+      "iconColor": "green",
+      "highlightColor": "#64DD17",
+      "scope": "workspace"
+    },
+    "SECTION": {
+      "iconColor": "blurple",
+      "highlightColor": "#896afc",
+      "scope": "workspace",
+      "behavior": "region"
+    },
+    "SUBSECTION": {
+      "iconColor": "purple",
+      "highlightColor": "#9459a5",
+      "scope": "file",
+      "behavior": "region"
+    },
+    "LINK": {
+      "iconColor": "#2ecc71",
+      "highlightColor": "#2ecc71",
+      "scope": "workspace",
+      "behavior": "link"
+    }
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "svelte.enable-ts-plugin": true,
+  "settingsSync.ignoredSettings": ["editor.mouseWheelScrollSensitivity"]
 }
