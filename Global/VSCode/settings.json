@@ -41,6 +41,9 @@
   "editor.fontFamily": "Rec Mono Linear",
   "editor.fontLigatures": true,
   "editor.formatOnSave": true,
+  "[json]": { 
+    "editor.formatOnSave": false
+  },
   "editor.guides.bracketPairs": "active",
   "editor.guides.highlightActiveBracketPair": true,
   "editor.guides.indentation": false,
@@ -744,7 +747,8 @@
   "editor.wordWrap": "bounded",
   "explorer.compactFolders": false,
   "files.associations": {
-    "*.css": "tailwindcss"
+    "*.css": "tailwindcss",
+    "settings.json": "json"
   },
   "files.hotExit": "onExitAndWindowClose",
   "git.autofetch": true,
@@ -897,6 +901,11 @@
     }
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "svelte.enable-ts-plugin": true,
-  "settingsSync.ignoredSettings": ["editor.mouseWheelScrollSensitivity"]
+  "settingsSync.ignoredSettings": ["editor.mouseWheelScrollSensitivity"],
+  "auto-close-tag.enableAutoCloseTag": false,
+  "auto-close-tag.enableAutoCloseSelfClosingTag": false,
+  "editor.inlineSuggest.showToolbar": "onHover",
+  "betterFolding.showFoldedBodyLinesCount": false,
+  "template-string-converter.addBracketsToProps": true,
+  "template-string-converter.autoRemoveTemplateString": true,
 }
