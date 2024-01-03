@@ -770,9 +770,14 @@
     "**/objd/**",
     "**/src-tauri/target/**"
   ],
-  "security.allowedUNCHosts": ["wsl.localhost"],
+  "security.allowedUNCHosts": [
+    "wsl.localhost"
+  ],
   "security.workspace.trust.untrustedFiles": "open",
-  "settingsSync.ignoredExtensions": ["ms-vscode-remote.remote-wsl"],
+  "settingsSync.ignoredExtensions": [
+    "ms-vscode-remote.remote-wsl",
+    "drcika.apc-extension"
+  ],
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.cursorStyleInactive": "line",
@@ -803,11 +808,9 @@
   "vite.autoStart": false,
   "vite.browserType": "system",
   "window.commandCenter": false,
-  "window.menuBarVisibility": "compact",
   "window.restoreWindows": "none",
   "window.title": "${dirty}${activeEditorShort}${separator}${rootName}",
-  "window.titleBarStyle": "custom",
-  "workbench.activityBar.location": "top",
+  "window.titleBarStyle": "native",
   "workbench.colorCustomizations": {
     "editor.lineHighlightBackground": "#1073cf2d",
     "editor.lineHighlightBorder": "#9fced11f",
@@ -901,11 +904,57 @@
     }
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "settingsSync.ignoredSettings": ["editor.mouseWheelScrollSensitivity"],
+  "settingsSync.ignoredSettings": [
+    "editor.mouseWheelScrollSensitivity",
+    "apc.electron"
+  ],
   "auto-close-tag.enableAutoCloseTag": false,
   "auto-close-tag.enableAutoCloseSelfClosingTag": false,
   "editor.inlineSuggest.showToolbar": "onHover",
   "betterFolding.showFoldedBodyLinesCount": false,
   "template-string-converter.addBracketsToProps": true,
   "template-string-converter.autoRemoveTemplateString": true,
+  "apc.font.family": "Recursive Sans Linear Static",
+  "apc.activityBar": {
+    "position": "bottom",
+    "hideSettings": true,
+    "size": 35,
+    "itemMargin": 7
+  },
+  "apc.header": {
+    "height": 25,
+    "fontSize": 12
+  },
+  "apc.listRow": {
+    "height": 25,
+    "fontSize": 14,
+    "parts": {
+      "quick-input-list": {
+        "fontSize": 13,
+        "height": 30
+      }
+    }
+  },
+  "apc.sidebar.titlebar": {
+    "height": 30,
+    "fontSize": 14
+  },
+  "apc.menubar.compact": true,
+"apc.stylesheet": {
+  ".editor-actions": "display: none !important",
+  ".filematch .monaco-icon-label:before .custom-list-row.results .monaco-list-row .monaco-icon-label:before": "background-position: 0 bottom !important",
+  ".sidebar": "border: none !important",
+  ".quick-input-list-row div": "display: flex !important; align-items: center !important",
+  ".title-label" : "flex: initial !important",
+  "li[title='Refresh Explorer'], li[title='Collapse Folders in Explorer']": "display: none !important"
+},
+"apc.electron": {
+  "titleBarStyle": "hidden",
+  "titleBarOverlay": {
+    "color": "#181818",
+    "symbolColor": "white",
+    "height": 30
+  }
+},
+"workbench.editor.enablePreview": false
 }
