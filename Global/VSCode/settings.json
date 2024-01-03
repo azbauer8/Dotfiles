@@ -53,7 +53,6 @@
   "editor.minimap.autohide": true,
   "editor.minimap.maxColumn": 80,
   "editor.minimap.renderCharacters": false,
-  "editor.minimap.showSlider": "always",
   "editor.occurrencesHighlight": "off",
   "editor.quickSuggestions": {
     "strings": "on"
@@ -770,9 +769,6 @@
     "**/objd/**",
     "**/src-tauri/target/**"
   ],
-  "security.allowedUNCHosts": [
-    "wsl.localhost"
-  ],
   "security.workspace.trust.untrustedFiles": "open",
   "settingsSync.ignoredExtensions": [
     "ms-vscode-remote.remote-wsl",
@@ -849,7 +845,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "html.format.wrapLineLength": 80,
-  "editor.mouseWheelScrollSensitivity": 2.5,
   "workbench.statusBar.visible": false,
   "commentAnchors.workspace.lazyLoad": false,
   "commentAnchors.scrollPosition": "center",
@@ -923,7 +918,7 @@
   },
   "apc.header": {
     "height": 25,
-    "fontSize": 12
+    "fontSize": 14
   },
   "apc.listRow": {
     "height": 25,
@@ -937,17 +932,22 @@
   },
   "apc.sidebar.titlebar": {
     "height": 30,
-    "fontSize": 14
+    "fontSize": 13
   },
   "apc.menubar.compact": true,
 "apc.stylesheet": {
-  ".editor-actions": "display: none !important",
+  ".editor-actions, .title-actions": "display: none !important",
   ".filematch .monaco-icon-label:before .custom-list-row.results .monaco-list-row .monaco-icon-label:before": "background-position: 0 bottom !important",
   ".sidebar": "border: none !important",
   ".quick-input-list-row div": "display: flex !important; align-items: center !important",
   ".title-label" : "flex: initial !important",
-  "li[title='Refresh Explorer'], li[title='Collapse Folders in Explorer']": "display: none !important"
+  "li[title='Refresh Explorer'], li[title='Collapse Folders in Explorer']": "display: none !important",
+  ".minimap-shadow-visible": "display: none !important",
 },
+"workbench.editor.enablePreview": false,
+"update.mode": "default",
+"editor.minimap.showSlider": "always",
+"editor.fontSize": 14,
 "apc.electron": {
   "titleBarStyle": "hidden",
   "titleBarOverlay": {
@@ -955,6 +955,5 @@
     "symbolColor": "white",
     "height": 30
   }
-},
-"workbench.editor.enablePreview": false
+}
 }
