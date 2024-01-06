@@ -832,7 +832,7 @@
   "workbench.editorAssociations": {
     "*.svg": "default"
   },
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "symbols",
   "workbench.layoutControl.enabled": false,
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
@@ -939,15 +939,9 @@
     "fontSize": 13
   },
   "apc.menubar.compact": true,
-"apc.stylesheet": {
-  ".editor-actions, .title-actions, li[title='Refresh Explorer'], li[title='Collapse Folders in Explorer'], .minimap-shadow-visible, .scroll-decoration, .decorationsOverviewRuler, .shadow": "display: none !important",
-  ".filematch .monaco-icon-label:before .custom-list-row.results .monaco-list-row .monaco-icon-label:before ": "background-position: 0 bottom !important",
-  ".sidebar": "border: none !important",
-  ".quick-input-list-row div": "display: flex !important; align-items: center !important",
-  ".title-label" : "flex: initial !important",
-  ".minimap": "transform: translateX(13px) !important",
-  ".monaco-menu": "fontSize: 16px !important"
-},
+"apc.imports": [
+  "/C:/Users/zachb/Dotfiles/Global/VSCode/styles.css"
+],
 
 "workbench.editor.enablePreview": false,
 "update.mode": "default",
@@ -965,14 +959,12 @@
 "search.quickOpen.includeHistory": false,
 "editor.guides.bracketPairsHorizontal": false,
 "apc.electron": {
-  "titleBarStyle": "hidden"
-},
-"apc.electron": {
   "titleBarStyle": "hidden",
   "titleBarOverlay": {
     "color": "#181818",
     "symbolColor": "white",
     "height": 30
   }
-}
+},
+"symbols.hidesExplorerArrows": false
 }
