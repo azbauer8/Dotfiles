@@ -10,6 +10,7 @@
 .minimap { transform: translateX(13px) !important }
 
 
+/* secondary button */
 .notifications-list-container .monaco-list-row .monaco-text-button.secondary {
   /* color: inherit !important; */
   background-color: inherit !important;
