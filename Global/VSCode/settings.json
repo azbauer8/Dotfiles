@@ -48,7 +48,6 @@
   "editor.inlayHints.enabled": "off",
   "editor.matchBrackets": "never",
   "editor.minimap.autohide": true,
-  "editor.minimap.maxColumn": 80,
   "editor.minimap.renderCharacters": false,
   "editor.occurrencesHighlight": "off",
   "editor.quickSuggestions": {
@@ -838,11 +837,7 @@
   "workbench.startupEditor": "none",
   "workbench.tree.indent": 20,
   "terminal.integrated.fontSize": 16,
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "html.format.wrapLineLength": 80,
-  "workbench.statusBar.visible": false,
   "commentAnchors.workspace.lazyLoad": false,
   "commentAnchors.scrollPosition": "center",
   "commentAnchors.tags.anchors": {
@@ -950,9 +945,10 @@
 "workbench.colorTheme": "Dark Filk",
 "workbench.tree.renderIndentGuides": "none",
 "highlight-matching-tag.styles": {
+
   "opening": {
     "name": {
-      "underline": "#FFA066",
+      "underline": "#FFA066"
     }
   }
 },
@@ -966,5 +962,10 @@
     "height": 30
   }
 },
-"symbols.hidesExplorerArrows": false
+"symbols.hidesExplorerArrows": false,
+"editor.mouseWheelScrollSensitivity": 3,
+"inline-parameters.enabled": true,
+"editor.wordWrapColumn": 120,
+"editor.minimap.maxColumn": 80,
+"prettier.printWidth": 120
 }
