@@ -1,7 +1,4 @@
 {
-  "[astro]": {
-    "editor.defaultFormatter": "astro-build.astro-vscode"
-  },
   "breadcrumbs.enabled": false,
   "codeium.enableCodeLens": false,
   "codeium.enableSearch": true,
@@ -797,12 +794,8 @@
   },
   "typescript.suggest.paths": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "vite.autoStart": false,
-  "vite.browserType": "system",
-  "window.commandCenter": false,
   "window.restoreWindows": "none",
   "window.title": "${dirty}${activeEditorShort}${separator}${rootName}",
-  "window.titleBarStyle": "native",
   "workbench.colorCustomizations": {
     "editor.lineHighlightBackground": "#1073cf2d",
     "editor.lineHighlightBorder": "#9fced11f",
@@ -832,7 +825,6 @@
     "*.svg": "default"
   },
   "workbench.iconTheme": "symbols",
-  "workbench.layoutControl.enabled": false,
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
   "workbench.tree.indent": 20,
@@ -893,7 +885,6 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "settingsSync.ignoredSettings": [
     "editor.mouseWheelScrollSensitivity",
-    "apc.electron"
   ],
   "auto-close-tag.enableAutoCloseTag": false,
   "auto-close-tag.enableAutoCloseSelfClosingTag": false,
@@ -901,48 +892,12 @@
   "betterFolding.showFoldedBodyLinesCount": false,
   "template-string-converter.addBracketsToProps": true,
   "template-string-converter.autoRemoveTemplateString": true,
-  "apc.font.family": "Recursive Sans Linear Static",
-  "apc.activityBar": {
-    "position": "bottom",
-    "hideSettings": true,
-    "size": 35,
-    "itemMargin": 7
-  },
-  "apc.header": {
-    "height": 30,
-    "fontSize": 14
-  },
-  "apc.listRow": {
-    "parts": {
-      "quick-input-list": {
-        "fontSize": 13,
-        "height": 30
-      },
-      "explorer-folders-view": {
-        "height": 25,
-        "fontSize": 14
-      },
 
-      "tree": {
-        "fontSize": 14,
-        "height": 30
-      },
-    }
-  },
-  "apc.sidebar.titlebar": {
-    "height": 30,
-    "fontSize": 13
-  },
-  "apc.menubar.compact": true,
-"apc.imports": [
-  "/C:/Users/zachb/Dotfiles/Global/VSCode/styles.css"
-],
 
 "workbench.editor.enablePreview": false,
 "update.mode": "default",
 "editor.minimap.showSlider": "always",
 "editor.fontSize": 14,
-"workbench.colorTheme": "Dark Filk",
 "workbench.tree.renderIndentGuides": "none",
 "highlight-matching-tag.styles": {
 
@@ -954,18 +909,18 @@
 },
 "search.quickOpen.includeHistory": false,
 "editor.guides.bracketPairsHorizontal": false,
-"apc.electron": {
-  "titleBarStyle": "hidden",
-  "titleBarOverlay": {
-    "color": "#181818",
-    "symbolColor": "white",
-    "height": 30
-  }
-},
 "symbols.hidesExplorerArrows": false,
 "editor.mouseWheelScrollSensitivity": 3,
 "inline-parameters.enabled": true,
 "editor.wordWrapColumn": 120,
 "editor.minimap.maxColumn": 80,
-"prettier.printWidth": 120
+"prettier.printWidth": 120,
+"window.dialogStyle": "custom",
+"window.menuBarVisibility": "compact",
+"workbench.statusBar.visible": false,
+"workbench.editor.editorActionsLocation": "hidden",
+"workbench.layoutControl.enabled": false,
+"window.commandCenter": false,
+"workbench.colorTheme": "Dark Filk",
+"workbench.activityBar.location": "top"
 }

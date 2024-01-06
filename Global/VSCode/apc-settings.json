@@ -1,0 +1,48 @@
+{
+  "settingsSync.ignoredSettings": [
+    "apc.electron"
+  ],
+  "apc.font.family": "Recursive Sans Linear Static",
+  "apc.electron": {
+    "titleBarStyle": "hidden",
+    "titleBarOverlay": {
+      "color": "#181818",
+      "symbolColor": "white",
+      "height": 30
+    }
+  },
+  "apc.activityBar": {
+    "position": "bottom",
+    "hideSettings": true,
+    "size": 35,
+    "itemMargin": 7
+  },
+  "apc.header": {
+    "height": 30,
+    "fontSize": 14
+  },
+  "apc.listRow": {
+    "parts": {
+      "quick-input-list": {
+        "fontSize": 13,
+        "height": 30
+      },
+      "explorer-folders-view": {
+        "height": 25,
+        "fontSize": 14
+      },
+      "tree": {
+        "fontSize": 14,
+        "height": 30
+      }
+    }
+  },
+  "apc.sidebar.titlebar": {
+    "height": 30,
+    "fontSize": 13
+  },
+  "apc.menubar.compact": true,
+  "apc.imports": [
+    "/C:/Users/zachb/Dotfiles/Global/VSCode/styles.css"
+  ]
+}
