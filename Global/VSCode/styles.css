@@ -1,14 +1,44 @@
+/* My Changes */
 * {
   outline-width: 1.5px !important;
   border-width: 1.5px !important;
 }
 
-.editor-actions, .title-actions, li[title='Refresh Explorer'], li[title='Collapse Folders in Explorer'], .minimap-shadow-visible, .scroll-decoration, .decorationsOverviewRuler, .shadow { display: none !important}
+.title-actions, li[title='Refresh Explorer'], li[title='Collapse Folders in Explorer'], .minimap-shadow-visible, .scroll-decoration, .decorationsOverviewRuler, .shadow { display: none !important}
+
 .filematch .monaco-icon-label:before .custom-list-row.results .monaco-list-row .monaco-icon-label:before {background-position: 0 bottom !important}
-.sidebar {border: none !important}
+
 .title-label { flex: initial !important }
+
 .minimap { transform: translateX(13px) !important }
 
+.nosidebar .editor-actions { width: 130px }
+
+.title-label > h2 {display: none;}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab {
+  --editor-group-tab-height: 1.2
+}
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab .monaco-icon-label:before {
+  background-position: "top left";
+  padding-right: 2px
+}
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab span.monaco-icon-label-container {
+  line-height: 1.5
+}
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab span.monaco-icon-description-container {
+  display: block;
+  font-size: 0.9em;
+  line-height: 1
+}
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab span.monaco-icon-description-container .label-description {
+  margin: 0
+}
+
+/* End My Changes */
+
+
+/* notifications toolbar */
 
 /* secondary button */
 .notifications-list-container .monaco-list-row .monaco-text-button.secondary {
@@ -19,8 +49,6 @@
 .notifications-list-container .monaco-list-row .monaco-text-button.secondary:hover {
   background-color: #141b25 !important;
 }
-
-/* notifications toolbar */
 
 .notification-list-item .notification-list-item-toolbar-container .action-item .codicon {
   color: inherit !important;
@@ -160,132 +188,38 @@
   box-shadow: inset 0 0 0 1px rgba(24, 26, 31, 0.5), 0 0 0 1px #d13b2e !important;
 }
 
-.monaco-findInput>div,
-.monaco-action-bar .action-item.select-container {
-  overflow: visible !important;
-}
-
-.monaco-workbench .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar .action-item.checked .active-item-indicator:before {
-  border-top-width: 1.5px !important;
-}
-
-/* keybinding label */
-
-.quick-input-list .monaco-keybinding>.monaco-keybinding-key:has(~ .monaco-keybinding-key-separator) {
-  margin-right: 0 !important;
-}
-
-.quick-input-list .monaco-keybinding>.monaco-keybinding-key:has(+ .monaco-keybinding-key-chord-separator) {
-  border-top-right-radius: 3px !important;
-  border-bottom-right-radius: 3px !important;
-}
-
-.quick-input-list .monaco-keybinding>.monaco-keybinding-key-chord-separator+.monaco-keybinding-key {
-  border-top-left-radius: 3px !important;
-  border-bottom-left-radius: 3px !important;
-}
-
-.quick-input-list .monaco-keybinding>.monaco-keybinding-key:first-child {
-  border-top-left-radius: 3px !important;
-  border-bottom-left-radius: 3px !important;
-}
-
-.quick-input-list .monaco-keybinding>.monaco-keybinding-key:last-child {
-  border-top-right-radius: 3px !important;
-  border-bottom-right-radius: 3px !important;
-}
-
-.quick-input-list .monaco-keybinding>.monaco-keybinding-key {
-  margin-left: 0;
-}
-
-/* .quick-input-list .monaco-keybinding>.monaco-keybinding-key-separator:has(~ .monaco-keybinding-key) {
-       margin-left: 0 !important;
-  }
-   */
-.monaco-keybinding {
-  line-height: 2 !important;
-}
-
-.quick-input-list .monaco-keybinding>.monaco-keybinding-key,
-.quick-input-list .monaco-keybinding>.monaco-keybinding-key-separator {
-  /*color: #fff !important;*/
-  background-color: var(--vscode-keybindingLabel-background) !important;
-}
-
-.quick-input-list .monaco-keybinding>.monaco-keybinding-key-separator {
-  line-height: 22px !important;
-}
-
-.quick-input-list .monaco-keybinding>.monaco-keybinding-key {
-  /* border-radius: 3px;
-       */
-  border-radius: 0;
-  border: transparent !important;
-  box-shadow: none !important;
-  padding: 0 0.375em !important;
-}
-
-
-/* widget */
-.quick-input-widget {
-  background-color: #171f2b !important;
-  top: 50px !important;
-  padding-bottom: 0.75em !important;
-  box-shadow: 0 6px 12px -2px rgba(0, 0, 0, 0.4), 0 0 0 100vw rgba(8, 9, 10, 0.75) !important;
-}
-
-.quick-input-widget.hidden-input .quick-input-header {
-  padding: 0 !important;
-  margin-bottom: 0 !important;
-}
-
-.quick-input-header {
-  padding: 0.75em !important;
-}
-.quick-input-header input { font-size: 14px !important}
-
-
-.quick-input-list .monaco-scrollable-element {
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-.quick-input-widget.hidden-input .quick-input-list {
-  margin-top: 0.75em !important;
-}
-
-.quick-input-list:has(.monaco-list-row) {
-  border: 1.5px solid #333e4f !important;
-}
-
-.quick-input-list {
-  margin: 0 0.75em 0 !important;
-  padding: 0 !important;
-}
-
-.quick-input-list .monaco-list {
-  max-height: 40vh !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-.quick-input-list .monaco-list .monaco-list-row {
-  border-bottom: 1.5px solid #333e4f !important;
-  border-radius: 0 !important;
-  font-size: 14px !important;
-}
-
-.quick-input-list .monaco-list-row:last-of-type {
-  border-bottom: none !important;
-}
-
 
 /* suggest widget */
 .monaco-editor .suggest-widget .monaco-list-row {
   left: -2px !important;
   width: calc(100% + 2px) !important;
 }
+
+    /* suggest-widget size */
+        .monaco-editor .suggest-widget.docs-side {
+            width: 1600px;
+        }
+        .monaco-editor .suggest-widget.docs-side > .details {
+            width: 70%;
+            max-height: 800px !important;
+        }
+        .monaco-editor .suggest-widget.docs-side > .tree {
+            width: 30%;
+            float: left;
+        }
+        
+    /* parameter-hints-widget */
+        .editor-widget.parameter-hints-widget.visible {
+            max-height: 800px !important;
+        }
+        .monaco-editor .parameter-hints-widget > .wrapper {
+            max-width: 1600px;
+        }
+
+    /* editor-hover */
+        .monaco-editor-hover .monaco-editor-hover-content {
+            max-width: 1600px;
+        }
 
 /* .monaco-editor .suggest-widget .codicon[class*=-variable] {
        */
@@ -409,3 +343,118 @@
   color: #d19a66 !important;
   background: rgba(209, 154, 102, 0.2);
 }
+
+
+
+
+
+
+
+
+/* 
+
+
+
+
+
+
+.quick-input-list .monaco-keybinding>.monaco-keybinding-key:has(~ .monaco-keybinding-key-separator) {
+  margin-right: 0 !important;
+}
+
+.quick-input-list .monaco-keybinding>.monaco-keybinding-key:has(+ .monaco-keybinding-key-chord-separator) {
+  border-top-right-radius: 3px !important;
+  border-bottom-right-radius: 3px !important;
+}
+
+.quick-input-list .monaco-keybinding>.monaco-keybinding-key-chord-separator+.monaco-keybinding-key {
+  border-top-left-radius: 3px !important;
+  border-bottom-left-radius: 3px !important;
+}
+
+.quick-input-list .monaco-keybinding>.monaco-keybinding-key:first-child {
+  border-top-left-radius: 3px !important;
+  border-bottom-left-radius: 3px !important;
+}
+
+.quick-input-list .monaco-keybinding>.monaco-keybinding-key:last-child {
+  border-top-right-radius: 3px !important;
+  border-bottom-right-radius: 3px !important;
+}
+
+.quick-input-list .monaco-keybinding>.monaco-keybinding-key {
+  margin-left: 0;
+}
+
+.monaco-keybinding {
+  line-height: 2 !important;
+}
+
+.quick-input-list .monaco-keybinding>.monaco-keybinding-key,
+.quick-input-list .monaco-keybinding>.monaco-keybinding-key-separator {
+  background-color: var(--vscode-keybindingLabel-background) !important;
+}
+
+.quick-input-list .monaco-keybinding>.monaco-keybinding-key-separator {
+  line-height: 22px !important;
+}
+
+.quick-input-list .monaco-keybinding>.monaco-keybinding-key {
+  border-radius: 0;
+  border: transparent !important;
+  box-shadow: none !important;
+  padding: 0 0.375em !important;
+}
+
+
+.quick-input-widget {
+  background-color: #171f2b !important;
+  top: 50px !important;
+  padding-bottom: 0.75em !important;
+  box-shadow: 0 6px 12px -2px rgba(0, 0, 0, 0.4), 0 0 0 100vw rgba(8, 9, 10, 0.75) !important;
+}
+
+.quick-input-widget.hidden-input .quick-input-header {
+  padding: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.quick-input-header {
+  padding: 0.75em !important;
+}
+.quick-input-header input { font-size: 14px !important}
+
+
+.quick-input-list .monaco-scrollable-element {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.quick-input-widget.hidden-input .quick-input-list {
+  margin-top: 0.75em !important;
+}
+
+.quick-input-list:has(.monaco-list-row) {
+  border: 1.5px solid #333e4f !important;
+}
+
+.quick-input-list {
+  margin: 0 0.75em 0 !important;
+  padding: 0 !important;
+}
+
+.quick-input-list .monaco-list {
+  max-height: 40vh !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.quick-input-list .monaco-list .monaco-list-row {
+  border-bottom: 1.5px solid #333e4f !important;
+  border-radius: 0 !important;
+  font-size: 14px !important;
+}
+
+.quick-input-list .monaco-list-row:last-of-type {
+  border-bottom: none !important;
+}  */
