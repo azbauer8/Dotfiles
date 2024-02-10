@@ -5,17 +5,20 @@
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "editor.cursorBlinking": "phase",
   "editor.cursorSmoothCaretAnimation": "on",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "biomejs.biome",
   "editor.fontFamily": "Rec Mono Linear",
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
   "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "quickfix.biome": "explicit",
+    "source.organizeImports.biome": "explicit"
+  },
   "editor.formatOnPaste": true,
   "editor.guides.bracketPairs": "active",
   "editor.guides.bracketPairsHorizontal": false,
   "editor.mouseWheelScrollSensitivity": 3,
   "editor.guides.highlightActiveIndentation": false,
-  "editor.guides.indentation": false,
   "editor.inlayHints.enabled": "off",
   "editor.inlineSuggest.showToolbar": "onHover",
   "editor.matchBrackets": "never",
@@ -36,15 +39,17 @@
   "errorLens.gutterIconsEnabled": false,
   "errorLens.removeLinebreaks": true,
   "errorLens.scrollbarHackEnabled": true,
-  "explorer.autoReveal": false,
-  "explorer.compactFolders": false,
-  "explorer.fileNesting.expand": false,
+  "explorer.compactFolders": false, 
   "files.associations": {
     "*.css": "tailwindcss",
     "settings.json": "json"
   },
   "[json]": {
     "editor.formatOnSave": false
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.stickyScroll.defaultModel": "foldingProviderModel"
   },
   "files.hotExit": "off",
   "git.autofetch": true,
@@ -63,8 +68,6 @@
   "javascript.suggest.paths": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "path-intellisense.showHiddenFiles": true,
-  "prettier.printWidth": 80,
-  "prettier.semi": false,
   "relativePath.ignore": [
     "**/.git/**",
     "**/node_modules/**",
@@ -86,18 +89,16 @@
   "settingsSync.ignoredSettings": [
     "editor.mouseWheelScrollSensitivity",
     "editor.fontFamily",
-    "apc.electron"
+    "apc.electron",
+    "apc.imports",
+    "apc.stylesheet"
   ],
   "template-string-converter.addBracketsToProps": true,
   "template-string-converter.autoRemoveTemplateString": true,
-  "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.cursorStyleInactive": "line",
-  "terminal.integrated.cursorWidth": 2,
   "terminal.integrated.defaultProfile.windows": "PowerShell",
-  "terminal.integrated.env.osx": {},
-  "terminal.integrated.env.windows": {},
-  "terminal.integrated.gpuAcceleration": "off",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "terminal.integrated.fontSize": 14,
+
   "terminal.integrated.profiles.windows": {
     "Command Prompt": {
       "args": [],
@@ -127,28 +128,22 @@
   },
   "workbench.iconTheme": "material-icon-theme",
   "workbench.layoutControl.enabled": false,
-  "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
-  "workbench.statusBar.visible": false,
-  "workbench.tree.indent": 20,
-  "workbench.tree.renderIndentGuides": "none",
   "workbench.activityBar.location": "top",
   "files.simpleDialog.enable": true,
-  "window.dialogStyle": "custom",
   "window.menuBarVisibility": "compact",
   "explorer.confirmDragAndDrop": false,
   "editor.quickSuggestionsDelay": 1,
   "editor.suggest.preview": true,
-  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
-  "terminal.integrated.fontSize": 14,
   "apc.electron": {
     "titleBarStyle": "hidden",
     "titleBarOverlay": {
-      "color": "#15181d", 
+      "color": "#18181b",
       "symbolColor": "white",
       "height": 30
     }
   },
+  
   "apc.font.family": "Recursive Sans Linear Static",
   "apc.activityBar": {
     "position": "bottom",
@@ -177,14 +172,40 @@
     "fontSize": 13
   },
   "apc.menubar.compact": true,
-  "apc.imports": ["/C:/Users/zachb/Dotfiles/Global/VSCode/styles.css"],
+  "apc.imports": [
+    "/C:/Users/zachb/Dotfiles/Global/VSCode/styles.css"
+  ],
   "workbench.editor.pinnedTabSizing": "compact",
-  "workbench.colorTheme": "Cozy Space",
-  "window.titleBarStyle": "native",
-  "explorer.decorations.colors": false,
-  "explorer.decorations.badges": false,
   "editor.hideCursorInOverviewRuler": true,
   "scm.diffDecorationsGutterVisibility": "hover",
   "scm.diffDecorationsGutterAction": "none",
-  "scm.diffDecorations": "minimap"
+  "scm.diffDecorations": "minimap",
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "window.dialogStyle": "custom",
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "package.json": "package-lock.json"
+  },
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.sideBar.location": "right",
+  "workbench.tree.indent": 18,
+  "editor.guides.indentation": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome-nightly",
+    "editor.stickyScroll.defaultModel": "foldingProviderModel"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.statusBar.visible": false,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "window.titleBarStyle": "native",
+  "rapidapi.terminalLink.enabled": false,
+  "workbench.colorTheme": "Ronin",
+  "workbench.tree.enableStickyScroll": true,
+  "editor.stickyScroll.enabled": true,
+  "terminal.integrated.stickyScroll.enabled": true,
+  "terminal.integrated.env.windows": {},
+  "console-ninja.featureSet": "Community"
 }
