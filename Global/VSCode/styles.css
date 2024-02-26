@@ -1,8 +1,4 @@
 /* My Changes */
-* {
-  outline-width: 1.5px !important;
-  border-width: 1.5px !important;
-}
 
 .title-actions, li[title='Refresh Explorer'], li[title='Collapse Folders in Explorer'], .minimap-shadow-visible, .scroll-decoration, .decorationsOverviewRuler, .shadow { display: none !important}
 
@@ -12,16 +8,16 @@
 
 .minimap { transform: translateX(13px) !important }
 
-.nosidebar .editor-actions { width: 130px }
+/* .nosidebar .editor-actions { width: 130px } */
 
 .title-label > h2 {font-weight: bold !important}
 
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab {
-  --editor-group-tab-height: 1.2
+  --editor-group-tab-height: 1.1
 }
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab .monaco-icon-label:before {
-  background-position: "top left";
-  padding-right: 2px
+  padding-right: 3px;
+  transform: translateY(3px);
 }
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab span.monaco-icon-label-container {
   line-height: 1.5
@@ -33,6 +29,9 @@
 }
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab span.monaco-icon-description-container .label-description {
   margin: 0
+}
+.extensions-viewlet>.extensions {
+    height: calc(100% - 40px) !important;
 }
 
 /* End My Changes */
