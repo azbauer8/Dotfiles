@@ -30,15 +30,15 @@ $mappings = @(
   },
   # VSCode
   @{
-    source = "$Env:AppData\Code\User\settings.json"
+    source = "$Env:AppData\Cursor\User\settings.json"
     dest = "$PWD\..\Global\VSCode\settings.json"
   },
   @{
-    source = "$Env:AppData\Code\User\keybindings.json"
+    source = "$Env:AppData\Cursor\User\keybindings.json"
     dest = "$PWD\..\Global\VSCode\keybindings.json"
   },
   @{
-    source = "$Env:USERPROFILE\.vscode\extensions\extensions.json"
+    source = "$Env:USERPROFILE\.cursor\extensions\extensions.json"
     dest = "$PWD\..\Global\VSCode\extensions.json"
   },
   # FancyWM

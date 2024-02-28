@@ -2,6 +2,6 @@ Assumes you already have the following installed:
 
 - Git
 - Windows Terminal
-- VS Code
+- Cursor (vscode fork)
 - FancyWM
 - Virtual Space
