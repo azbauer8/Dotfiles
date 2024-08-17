@@ -4,6 +4,14 @@
     "actions": 
     [
         {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
             "command": "unbound",
             "keys": "ctrl+shift+t"
         },
@@ -38,24 +46,20 @@
         {
             "command": 
             {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+c"
-        },
-        {
-            "command": 
-            {
                 "action": "newTab"
             }
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
         },
         {
             "command": "duplicateTab",
             "keys": "ctrl+t"
         },
         {
-            "command": "paste",
-            "keys": "ctrl+v"
+            "command": "find",
+            "keys": "ctrl+f"
         },
         {
             "command": 
@@ -65,10 +69,6 @@
                 "splitMode": "duplicate"
             },
             "keys": "ctrl+d"
-        },
-        {
-            "command": "find",
-            "keys": "ctrl+f"
         },
         {
             "command": "closePane",
@@ -85,7 +85,7 @@
     "confirmCloseAllTabs": false,
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{001c930f-d9f3-4cda-b5fb-755abbb062e0}",
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "launchMode": "default",
     "newTabMenu": 
     [
@@ -104,26 +104,11 @@
             {
                 "face": "JetBrainsMono Nerd Font"
             },
-            "opacity": 90,
-            "padding": "10",
+            "opacity": 50,
             "useAcrylic": true
         },
         "list": 
         [
-            {
-                "commandline": "%SystemRoot%\\System32\\cmd.exe",
-                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "hidden": false,
-                "name": "Command Prompt"
-            },
-            {
-                "commandline": "C:\\Windows\\system32\\wsl.exe -d Ubuntu",
-                "guid": "{001c930f-d9f3-4cda-b5fb-755abbb062e0}",
-                "hidden": false,
-                "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
-                "name": "WSL",
-                "startingDirectory": "\\\\wsl.localhost\\Ubuntu\\home\\zachb\\Projects"
-            },
             {
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
@@ -131,16 +116,9 @@
                 "source": "Windows.Terminal.PowershellCore"
             },
             {
-                "guid": "{b3c47d05-9024-51dd-a716-e2c3fe7546ad}",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
-                "name": "Developer Command Prompt for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{fada1dc6-eca0-5db2-9e32-1bb44cf47300}",
-                "hidden": false,
-                "name": "Developer PowerShell for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
+                "name": "Command Prompt"
             }
         ]
     },
@@ -378,5 +356,5 @@
         }
     ],
     "themes": [],
-    "useAcrylicInTabRow": false
+    "useAcrylicInTabRow": true
 }

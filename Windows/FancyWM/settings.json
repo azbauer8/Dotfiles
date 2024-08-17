@@ -398,11 +398,13 @@
     "Bitwarden",
     "FancyWM",
     "Photos",
-    "FluentSearch"
+    "FluentSearch",
+    "HELLDIVERS 2"
   ],
   "ClassIgnoreList": [
     "Fluent Search",
-    "Notion - Command Search"
+    "Notion - Command Search",
+    "HELLDIVERS 2"
   ],
   "RemindToRateReview": true,
   "ShowContextHints": true,
