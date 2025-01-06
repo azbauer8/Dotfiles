@@ -1,0 +1,1 @@
+@-moz-document url-prefix("chrome:") {    .search-one-offs {    display: none !important;  }  }
